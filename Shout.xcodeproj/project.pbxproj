@@ -15,6 +15,10 @@
 		CBEB16F41FCF00D700F8142E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEB16F31FCF00D700F8142E /* main.m */; };
 		CBEB16FE1FCF00D700F8142E /* ShoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEB16FD1FCF00D700F8142E /* ShoutTests.m */; };
 		CBEB17091FCF00D700F8142E /* ShoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEB17081FCF00D700F8142E /* ShoutUITests.m */; };
+		CBEB171D1FCF037100F8142E /* RGMessageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEB171C1FCF037100F8142E /* RGMessageVC.m */; };
+		CBEB17201FCF038B00F8142E /* RGConnectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEB171F1FCF038B00F8142E /* RGConnectVC.m */; };
+		CBEB17231FCF03A600F8142E /* RGMapVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEB17221FCF03A600F8142E /* RGMapVC.m */; };
+		CBEB17261FCF03CD00F8142E /* RGMineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEB17251FCF03CD00F8142E /* RGMineVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		CBEB17041FCF00D700F8142E /* ShoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBEB17081FCF00D700F8142E /* ShoutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShoutUITests.m; sourceTree = "<group>"; };
 		CBEB170A1FCF00D700F8142E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBEB171B1FCF037100F8142E /* RGMessageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGMessageVC.h; sourceTree = "<group>"; };
+		CBEB171C1FCF037100F8142E /* RGMessageVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGMessageVC.m; sourceTree = "<group>"; };
+		CBEB171E1FCF038B00F8142E /* RGConnectVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGConnectVC.h; sourceTree = "<group>"; };
+		CBEB171F1FCF038B00F8142E /* RGConnectVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGConnectVC.m; sourceTree = "<group>"; };
+		CBEB17211FCF03A600F8142E /* RGMapVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGMapVC.h; sourceTree = "<group>"; };
+		CBEB17221FCF03A600F8142E /* RGMapVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGMapVC.m; sourceTree = "<group>"; };
+		CBEB17241FCF03CD00F8142E /* RGMineVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGMineVC.h; sourceTree = "<group>"; };
+		CBEB17251FCF03CD00F8142E /* RGMineVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGMineVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +113,11 @@
 		CBEB16E31FCF00D700F8142E /* Shout */ = {
 			isa = PBXGroup;
 			children = (
+				CBEB171A1FCF025700F8142E /* Other */,
+				CBEB17191FCF024E00F8142E /* View */,
+				CBEB17181FCF024400F8142E /* Controller */,
+				CBEB17171FCF023500F8142E /* ViewModel */,
+				CBEB17161FCF022600F8142E /* Model */,
 				CBEB16E41FCF00D700F8142E /* AppDelegate.h */,
 				CBEB16E51FCF00D700F8142E /* AppDelegate.m */,
 				CBEB16E71FCF00D700F8142E /* ViewController.h */,
@@ -130,6 +147,81 @@
 				CBEB170A1FCF00D700F8142E /* Info.plist */,
 			);
 			path = ShoutUITests;
+			sourceTree = "<group>";
+		};
+		CBEB17161FCF022600F8142E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CBEB17171FCF023500F8142E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CBEB17181FCF024400F8142E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CBEB17271FCF03D100F8142E /* Message */,
+				CBEB17281FCF03E800F8142E /* Connect */,
+				CBEB17291FCF03F800F8142E /* Map */,
+				CBEB172A1FCF040200F8142E /* Mine */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CBEB17191FCF024E00F8142E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CBEB171A1FCF025700F8142E /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		CBEB17271FCF03D100F8142E /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				CBEB171B1FCF037100F8142E /* RGMessageVC.h */,
+				CBEB171C1FCF037100F8142E /* RGMessageVC.m */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		CBEB17281FCF03E800F8142E /* Connect */ = {
+			isa = PBXGroup;
+			children = (
+				CBEB171E1FCF038B00F8142E /* RGConnectVC.h */,
+				CBEB171F1FCF038B00F8142E /* RGConnectVC.m */,
+			);
+			path = Connect;
+			sourceTree = "<group>";
+		};
+		CBEB17291FCF03F800F8142E /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				CBEB17211FCF03A600F8142E /* RGMapVC.h */,
+				CBEB17221FCF03A600F8142E /* RGMapVC.m */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		CBEB172A1FCF040200F8142E /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				CBEB17251FCF03CD00F8142E /* RGMineVC.m */,
+				CBEB17241FCF03CD00F8142E /* RGMineVC.h */,
+			);
+			path = Mine;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,9 +357,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBEB17231FCF03A600F8142E /* RGMapVC.m in Sources */,
 				CBEB16E91FCF00D700F8142E /* ViewController.m in Sources */,
+				CBEB17201FCF038B00F8142E /* RGConnectVC.m in Sources */,
+				CBEB17261FCF03CD00F8142E /* RGMineVC.m in Sources */,
 				CBEB16F41FCF00D700F8142E /* main.m in Sources */,
 				CBEB16E61FCF00D700F8142E /* AppDelegate.m in Sources */,
+				CBEB171D1FCF037100F8142E /* RGMessageVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,12 +527,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = V9M2CMWZTN;
+				DEVELOPMENT_TEAM = MC32WL4XZA;
 				INFOPLIST_FILE = Shout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.roygao.Shout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -445,12 +542,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = V9M2CMWZTN;
+				DEVELOPMENT_TEAM = MC32WL4XZA;
 				INFOPLIST_FILE = Shout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.roygao.Shout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

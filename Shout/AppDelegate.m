@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "RGMessageVC.h"
+#import "RGConnectVC.h"
+#import "RGMapVC.h"
+#import "RGMineVC.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +21,24 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    /*********************************************
+     *                  Custom                    *
+     *********************************************/
+    self.tabBarController = [[UITabBarController alloc]init];
+    UINavigationController *nav1 = [[UINavigationController alloc]initWithRootViewController:[[RGMessageVC alloc]init]];
+    nav1.tabBarItem = [[UITabBarItem alloc]initWithTitle:@"信息" image:nil selectedImage:nil];
+    UINavigationController *nav2 = [[UINavigationController alloc]initWithRootViewController:[[RGConnectVC alloc]init]];
+    nav2.tabBarItem = [[UITabBarItem alloc]initWithTitle:@"联系人" image:nil selectedImage:nil];
+    UINavigationController *nav3 = [[UINavigationController alloc]initWithRootViewController:[[RGMapVC alloc]init]];
+    nav3.tabBarItem = [[UITabBarItem alloc]initWithTitle:@"地图" image:nil selectedImage:nil];
+    UINavigationController *nav4 = [[UINavigationController alloc]initWithRootViewController:[[RGMineVC alloc]init]];
+    nav4.tabBarItem = [[UITabBarItem alloc]initWithTitle:@"我的" image:nil selectedImage:nil];
+    self.tabBarController.viewControllers = @[nav1,nav2,nav3,nav4];
+    
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = self.tabBarController;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
