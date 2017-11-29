@@ -11,6 +11,8 @@
 #import "RGConnectVC.h"
 #import "RGMapVC.h"
 #import "RGMineVC.h"
+#import <YTKNetwork.h>
+#import "Config.h"
 
 @interface AppDelegate ()
 
@@ -21,6 +23,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    /*********************************************
+     *          网络请求 BaseUrl CDN 设置          *
+     *********************************************/
+    YTKNetworkConfig *config = [YTKNetworkConfig sharedConfig];
+    config.baseUrl = BASE_URL;
+    //    config.cdnUrl = CDN_URL;
+    
+    
+    
+    
     
     /*********************************************
      *                  Custom                    *
