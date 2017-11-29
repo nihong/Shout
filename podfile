@@ -1,0 +1,14 @@
+platform :ios, '9.0'
+target 'Shout' do
+
+pod 'AFNetworking' 
+pod 'YYKit'
+pod 'Masonry' 
+pod 'SDWebImage' 
+pod 'MBProgressHUD' 
+pod 'UMengAnalytics'
+pod 'Reveal-SDK', :configurations => ['Debug']
+pod 'MJRefresh'
+pod 'Bugly'
+pod 'YTKNetwork'
+end
