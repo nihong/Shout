@@ -15,4 +15,6 @@
  */
 @interface RGUserInfoApi : YTKRequest
 
+-(instancetype)initWithUserId:(NSString *)userId isLookForSelf:(BOOL)isSelf;
+
 @end

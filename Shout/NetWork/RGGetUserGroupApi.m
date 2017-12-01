@@ -1,35 +1,37 @@
 //
-//  RGGetUserConfigApi.m
+//  RGGetUserGroupApi.m
 //  Shout
 //
-//  Created by 泥红 on 2017/11/30.
+//  Created by ios-02 on 2017/12/1.
 //  Copyright © 2017年 RoyGao. All rights reserved.
 //
 
-#import "RGGetUserConfigApi.h"
+#import "RGGetUserGroupApi.h"
 
 
-@interface RGGetUserConfigApi ()
+
+@interface RGGetUserGroupApi ()
 {
     NSString * _userId;
+    
 }
 @end
 
-@implementation RGGetUserConfigApi
-
+@implementation RGGetUserGroupApi
 -(instancetype)initWithUserId:(NSString *)userId
 {
     self  =[super init];
     
     if (self) {
         _userId = userId;
+        
     }
     return self;
 }
 
 -(NSString *)requestUrl
 {
-    return @"getUserConfig";
+    return @"group/getUserGroup";
 }
 
 -(YTKRequestMethod)requestMethod

@@ -1,17 +1,17 @@
 //
-//  RGGetUserConfigApi.h
+//  RGFetchTokenApi.h
 //  Shout
 //
-//  Created by 泥红 on 2017/11/30.
+//  Created by ios-02 on 2017/12/1.
 //  Copyright © 2017年 RoyGao. All rights reserved.
 //
 
 #import <YTKNetwork/YTKNetwork.h>
 
 /**
- 获取用户设置
+ 获取融云token
  */
-@interface RGGetUserConfigApi : YTKRequest
+@interface RGFetchTokenApi : YTKRequest
 
 -(instancetype)initWithUserId:(NSString *)userId;
 @end

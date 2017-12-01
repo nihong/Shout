@@ -1,17 +1,17 @@
 //
-//  RGGetUserConfigApi.h
+//  RGGetUserCurrentGroup.h
 //  Shout
 //
-//  Created by 泥红 on 2017/11/30.
+//  Created by ios-02 on 2017/12/1.
 //  Copyright © 2017年 RoyGao. All rights reserved.
 //
 
 #import <YTKNetwork/YTKNetwork.h>
 
 /**
- 获取用户设置
+ 获取用户当前所在的小组
  */
-@interface RGGetUserConfigApi : YTKRequest
+@interface RGGetUserCurrentGroup : YTKRequest
 
 -(instancetype)initWithUserId:(NSString *)userId;
 @end

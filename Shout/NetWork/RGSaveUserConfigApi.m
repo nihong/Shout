@@ -18,12 +18,12 @@
 @end
 
 @implementation RGSaveUserConfigApi
--(instancetype)initWithUserId:(NSInteger)userId showPhone:(BOOL)showPhone autoSwitchGroup:(BOOL)autoSwitchGroup allowAddFriend:(BOOL)allowAddFriend autoVoicePlay:(BOOL)autoPlay
+-(instancetype)initWithUserId:(NSString *)userId showPhone:(BOOL)showPhone autoSwitchGroup:(BOOL)autoSwitchGroup allowAddFriend:(BOOL)allowAddFriend autoVoicePlay:(BOOL)autoPlay
 {
     self  =[super init];
     
     if (self) {
-        _userId = @(userId).stringValue;
+        _userId = userId;
         _showPhone = showPhone;
         _autoSwitchGroup = autoSwitchGroup;
         _allowAddFriend = allowAddFriend;

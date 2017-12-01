@@ -13,5 +13,5 @@
  */
 @interface RGSaveUserConfigApi : YTKRequest
 
--(instancetype)initWithUserId:(NSInteger)userId showPhone:(BOOL)showPhone autoSwitchGroup:(BOOL)autoSwitchGroup allowAddFriend:(BOOL)allowAddFriend autoVoicePlay:(BOOL)autoPlay;
+-(instancetype)initWithUserId:(NSString *)userId showPhone:(BOOL)showPhone autoSwitchGroup:(BOOL)autoSwitchGroup allowAddFriend:(BOOL)allowAddFriend autoVoicePlay:(BOOL)autoPlay;
 @end

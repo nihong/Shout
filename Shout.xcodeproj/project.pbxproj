@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		99FD18203E1434D6602FCDAF /* libPods-Shout.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7CEA04C776FF1951EB7AE58 /* libPods-Shout.a */; };
+		A177A5201FD16BDF009E62B8 /* RGGetUserContactListApi.m in Sources */ = {isa = PBXBuildFile; fileRef = A177A51F1FD16BDF009E62B8 /* RGGetUserContactListApi.m */; };
+		A177A5231FD16C64009E62B8 /* RGGetUserLocationByGroupIdApi.m in Sources */ = {isa = PBXBuildFile; fileRef = A177A5221FD16C64009E62B8 /* RGGetUserLocationByGroupIdApi.m */; };
+		A177A5261FD16D2E009E62B8 /* RGGetUserGroupApi.m in Sources */ = {isa = PBXBuildFile; fileRef = A177A5251FD16D2E009E62B8 /* RGGetUserGroupApi.m */; };
+		A177A5291FD16DB5009E62B8 /* RGFetchTokenApi.m in Sources */ = {isa = PBXBuildFile; fileRef = A177A5281FD16DB5009E62B8 /* RGFetchTokenApi.m */; };
+		A177A52C1FD16E73009E62B8 /* RGUpdateUserLocationApi.m in Sources */ = {isa = PBXBuildFile; fileRef = A177A52B1FD16E73009E62B8 /* RGUpdateUserLocationApi.m */; };
+		A177A52F1FD170BB009E62B8 /* RGGetUserCurrentGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = A177A52E1FD170BB009E62B8 /* RGGetUserCurrentGroup.m */; };
+		A177A5321FD17157009E62B8 /* RGAddUserContact.m in Sources */ = {isa = PBXBuildFile; fileRef = A177A5311FD17157009E62B8 /* RGAddUserContact.m */; };
+		A177A5351FD175C0009E62B8 /* RGDelUserContactApi.m in Sources */ = {isa = PBXBuildFile; fileRef = A177A5341FD175C0009E62B8 /* RGDelUserContactApi.m */; };
+		A177A5381FD17818009E62B8 /* RGSetGroupManagerApi.m in Sources */ = {isa = PBXBuildFile; fileRef = A177A5371FD17818009E62B8 /* RGSetGroupManagerApi.m */; };
+		A177A53B1FD17FDB009E62B8 /* RGSwithchUserGroupApi.m in Sources */ = {isa = PBXBuildFile; fileRef = A177A53A1FD17FDB009E62B8 /* RGSwithchUserGroupApi.m */; };
+		A177A53E1FD1804F009E62B8 /* RGGetUserMsgList.m in Sources */ = {isa = PBXBuildFile; fileRef = A177A53D1FD1804F009E62B8 /* RGGetUserMsgList.m */; };
 		CBD52A691FCF224200B783EE /* RGLoginApi.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD52A681FCF224200B783EE /* RGLoginApi.m */; };
 		CBD52A6C1FCF240D00B783EE /* RGUserInfoApi.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD52A6B1FCF240D00B783EE /* RGUserInfoApi.m */; };
 		CBD52A6F1FCF25E800B783EE /* RGModifyUserInfoApi.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD52A6E1FCF25E800B783EE /* RGModifyUserInfoApi.m */; };
@@ -48,6 +59,28 @@
 
 /* Begin PBXFileReference section */
 		4766E9E5799A024CCA613385 /* Pods-Shout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shout.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shout/Pods-Shout.release.xcconfig"; sourceTree = "<group>"; };
+		A177A51E1FD16BDF009E62B8 /* RGGetUserContactListApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGGetUserContactListApi.h; sourceTree = "<group>"; };
+		A177A51F1FD16BDF009E62B8 /* RGGetUserContactListApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGGetUserContactListApi.m; sourceTree = "<group>"; };
+		A177A5211FD16C64009E62B8 /* RGGetUserLocationByGroupIdApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGGetUserLocationByGroupIdApi.h; sourceTree = "<group>"; };
+		A177A5221FD16C64009E62B8 /* RGGetUserLocationByGroupIdApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGGetUserLocationByGroupIdApi.m; sourceTree = "<group>"; };
+		A177A5241FD16D2E009E62B8 /* RGGetUserGroupApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGGetUserGroupApi.h; sourceTree = "<group>"; };
+		A177A5251FD16D2E009E62B8 /* RGGetUserGroupApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGGetUserGroupApi.m; sourceTree = "<group>"; };
+		A177A5271FD16DB5009E62B8 /* RGFetchTokenApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGFetchTokenApi.h; sourceTree = "<group>"; };
+		A177A5281FD16DB5009E62B8 /* RGFetchTokenApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGFetchTokenApi.m; sourceTree = "<group>"; };
+		A177A52A1FD16E73009E62B8 /* RGUpdateUserLocationApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGUpdateUserLocationApi.h; sourceTree = "<group>"; };
+		A177A52B1FD16E73009E62B8 /* RGUpdateUserLocationApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGUpdateUserLocationApi.m; sourceTree = "<group>"; };
+		A177A52D1FD170BB009E62B8 /* RGGetUserCurrentGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGGetUserCurrentGroup.h; sourceTree = "<group>"; };
+		A177A52E1FD170BB009E62B8 /* RGGetUserCurrentGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGGetUserCurrentGroup.m; sourceTree = "<group>"; };
+		A177A5301FD17157009E62B8 /* RGAddUserContact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGAddUserContact.h; sourceTree = "<group>"; };
+		A177A5311FD17157009E62B8 /* RGAddUserContact.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGAddUserContact.m; sourceTree = "<group>"; };
+		A177A5331FD175C0009E62B8 /* RGDelUserContactApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGDelUserContactApi.h; sourceTree = "<group>"; };
+		A177A5341FD175C0009E62B8 /* RGDelUserContactApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGDelUserContactApi.m; sourceTree = "<group>"; };
+		A177A5361FD17818009E62B8 /* RGSetGroupManagerApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGSetGroupManagerApi.h; sourceTree = "<group>"; };
+		A177A5371FD17818009E62B8 /* RGSetGroupManagerApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGSetGroupManagerApi.m; sourceTree = "<group>"; };
+		A177A5391FD17FDB009E62B8 /* RGSwithchUserGroupApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGSwithchUserGroupApi.h; sourceTree = "<group>"; };
+		A177A53A1FD17FDB009E62B8 /* RGSwithchUserGroupApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGSwithchUserGroupApi.m; sourceTree = "<group>"; };
+		A177A53C1FD1804F009E62B8 /* RGGetUserMsgList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGGetUserMsgList.h; sourceTree = "<group>"; };
+		A177A53D1FD1804F009E62B8 /* RGGetUserMsgList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGGetUserMsgList.m; sourceTree = "<group>"; };
 		CBD52A641FCF1FAA00B783EE /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
 		CBD52A651FCF1FBD00B783EE /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
 		CBD52A671FCF224200B783EE /* RGLoginApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGLoginApi.h; sourceTree = "<group>"; };
@@ -163,6 +196,28 @@
 				CBD52A7A1FCF2A8200B783EE /* RGGetUserConfigApi.m */,
 				CBD52A7C1FCF2B5500B783EE /* RGSaveUserConfigApi.h */,
 				CBD52A7D1FCF2B5500B783EE /* RGSaveUserConfigApi.m */,
+				A177A51E1FD16BDF009E62B8 /* RGGetUserContactListApi.h */,
+				A177A51F1FD16BDF009E62B8 /* RGGetUserContactListApi.m */,
+				A177A5211FD16C64009E62B8 /* RGGetUserLocationByGroupIdApi.h */,
+				A177A5221FD16C64009E62B8 /* RGGetUserLocationByGroupIdApi.m */,
+				A177A5241FD16D2E009E62B8 /* RGGetUserGroupApi.h */,
+				A177A5251FD16D2E009E62B8 /* RGGetUserGroupApi.m */,
+				A177A5271FD16DB5009E62B8 /* RGFetchTokenApi.h */,
+				A177A5281FD16DB5009E62B8 /* RGFetchTokenApi.m */,
+				A177A52A1FD16E73009E62B8 /* RGUpdateUserLocationApi.h */,
+				A177A52B1FD16E73009E62B8 /* RGUpdateUserLocationApi.m */,
+				A177A52D1FD170BB009E62B8 /* RGGetUserCurrentGroup.h */,
+				A177A52E1FD170BB009E62B8 /* RGGetUserCurrentGroup.m */,
+				A177A5301FD17157009E62B8 /* RGAddUserContact.h */,
+				A177A5311FD17157009E62B8 /* RGAddUserContact.m */,
+				A177A5331FD175C0009E62B8 /* RGDelUserContactApi.h */,
+				A177A5341FD175C0009E62B8 /* RGDelUserContactApi.m */,
+				A177A5361FD17818009E62B8 /* RGSetGroupManagerApi.h */,
+				A177A5371FD17818009E62B8 /* RGSetGroupManagerApi.m */,
+				A177A5391FD17FDB009E62B8 /* RGSwithchUserGroupApi.h */,
+				A177A53A1FD17FDB009E62B8 /* RGSwithchUserGroupApi.m */,
+				A177A53C1FD1804F009E62B8 /* RGGetUserMsgList.h */,
+				A177A53D1FD1804F009E62B8 /* RGGetUserMsgList.m */,
 			);
 			path = NetWork;
 			sourceTree = "<group>";
@@ -487,20 +542,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A177A5291FD16DB5009E62B8 /* RGFetchTokenApi.m in Sources */,
 				CBD52A751FCF27FF00B783EE /* RGSendRegCodeApi.m in Sources */,
 				CBD52A6C1FCF240D00B783EE /* RGUserInfoApi.m in Sources */,
+				A177A5261FD16D2E009E62B8 /* RGGetUserGroupApi.m in Sources */,
 				CBEB17231FCF03A600F8142E /* RGMapVC.m in Sources */,
 				CBEB17201FCF038B00F8142E /* RGConnectVC.m in Sources */,
+				A177A52C1FD16E73009E62B8 /* RGUpdateUserLocationApi.m in Sources */,
+				A177A5381FD17818009E62B8 /* RGSetGroupManagerApi.m in Sources */,
 				CBEB17261FCF03CD00F8142E /* RGMineVC.m in Sources */,
 				CBD52A721FCF26E800B783EE /* RGFetchUserIdApi.m in Sources */,
 				CBD52A781FCF28D600B783EE /* RGRegisterApi.m in Sources */,
+				A177A53B1FD17FDB009E62B8 /* RGSwithchUserGroupApi.m in Sources */,
 				CBD52A691FCF224200B783EE /* RGLoginApi.m in Sources */,
 				CBD52A7B1FCF2A8200B783EE /* RGGetUserConfigApi.m in Sources */,
+				A177A5321FD17157009E62B8 /* RGAddUserContact.m in Sources */,
+				A177A5351FD175C0009E62B8 /* RGDelUserContactApi.m in Sources */,
 				CBEB16F41FCF00D700F8142E /* main.m in Sources */,
+				A177A5231FD16C64009E62B8 /* RGGetUserLocationByGroupIdApi.m in Sources */,
+				A177A52F1FD170BB009E62B8 /* RGGetUserCurrentGroup.m in Sources */,
 				CBEB16E61FCF00D700F8142E /* AppDelegate.m in Sources */,
 				CBD52A6F1FCF25E800B783EE /* RGModifyUserInfoApi.m in Sources */,
+				A177A53E1FD1804F009E62B8 /* RGGetUserMsgList.m in Sources */,
 				CBEB171D1FCF037100F8142E /* RGMessageVC.m in Sources */,
 				CBD52A7E1FCF2B5500B783EE /* RGSaveUserConfigApi.m in Sources */,
+				A177A5201FD16BDF009E62B8 /* RGGetUserContactListApi.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
