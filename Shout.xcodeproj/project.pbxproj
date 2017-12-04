@@ -19,6 +19,10 @@
 		A177A5381FD17818009E62B8 /* RGSetGroupManagerApi.m in Sources */ = {isa = PBXBuildFile; fileRef = A177A5371FD17818009E62B8 /* RGSetGroupManagerApi.m */; };
 		A177A53B1FD17FDB009E62B8 /* RGSwithchUserGroupApi.m in Sources */ = {isa = PBXBuildFile; fileRef = A177A53A1FD17FDB009E62B8 /* RGSwithchUserGroupApi.m */; };
 		A177A53E1FD1804F009E62B8 /* RGGetUserMsgList.m in Sources */ = {isa = PBXBuildFile; fileRef = A177A53D1FD1804F009E62B8 /* RGGetUserMsgList.m */; };
+		CB2D392C1FD5933D0011DD03 /* RGUserMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2D392A1FD5933D0011DD03 /* RGUserMessageCell.m */; };
+		CB2D392D1FD5933D0011DD03 /* RGUserMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB2D392B1FD5933D0011DD03 /* RGUserMessageCell.xib */; };
+		CB2D39311FD59D2A0011DD03 /* RGLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2D392F1FD59D2A0011DD03 /* RGLoginVC.m */; };
+		CB2D39321FD59D2A0011DD03 /* RGLoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB2D39301FD59D2A0011DD03 /* RGLoginVC.xib */; };
 		CBD52A691FCF224200B783EE /* RGLoginApi.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD52A681FCF224200B783EE /* RGLoginApi.m */; };
 		CBD52A6C1FCF240D00B783EE /* RGUserInfoApi.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD52A6B1FCF240D00B783EE /* RGUserInfoApi.m */; };
 		CBD52A6F1FCF25E800B783EE /* RGModifyUserInfoApi.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD52A6E1FCF25E800B783EE /* RGModifyUserInfoApi.m */; };
@@ -81,6 +85,12 @@
 		A177A53A1FD17FDB009E62B8 /* RGSwithchUserGroupApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGSwithchUserGroupApi.m; sourceTree = "<group>"; };
 		A177A53C1FD1804F009E62B8 /* RGGetUserMsgList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGGetUserMsgList.h; sourceTree = "<group>"; };
 		A177A53D1FD1804F009E62B8 /* RGGetUserMsgList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGGetUserMsgList.m; sourceTree = "<group>"; };
+		CB2D39291FD5933D0011DD03 /* RGUserMessageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGUserMessageCell.h; sourceTree = "<group>"; };
+		CB2D392A1FD5933D0011DD03 /* RGUserMessageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGUserMessageCell.m; sourceTree = "<group>"; };
+		CB2D392B1FD5933D0011DD03 /* RGUserMessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RGUserMessageCell.xib; sourceTree = "<group>"; };
+		CB2D392E1FD59D2A0011DD03 /* RGLoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGLoginVC.h; sourceTree = "<group>"; };
+		CB2D392F1FD59D2A0011DD03 /* RGLoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGLoginVC.m; sourceTree = "<group>"; };
+		CB2D39301FD59D2A0011DD03 /* RGLoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RGLoginVC.xib; sourceTree = "<group>"; };
 		CBD52A641FCF1FAA00B783EE /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
 		CBD52A651FCF1FBD00B783EE /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
 		CBD52A671FCF224200B783EE /* RGLoginApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGLoginApi.h; sourceTree = "<group>"; };
@@ -166,6 +176,16 @@
 				4766E9E5799A024CCA613385 /* Pods-Shout.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		CB2D39281FD592F50011DD03 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				CB2D39291FD5933D0011DD03 /* RGUserMessageCell.h */,
+				CB2D392A1FD5933D0011DD03 /* RGUserMessageCell.m */,
+				CB2D392B1FD5933D0011DD03 /* RGUserMessageCell.xib */,
+			);
+			path = Mine;
 			sourceTree = "<group>";
 		};
 		CBD52A631FCF1EDD00B783EE /* Util */ = {
@@ -305,6 +325,7 @@
 		CBEB17191FCF024E00F8142E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CB2D39281FD592F50011DD03 /* Mine */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -352,8 +373,11 @@
 		CBEB172A1FCF040200F8142E /* Mine */ = {
 			isa = PBXGroup;
 			children = (
-				CBEB17251FCF03CD00F8142E /* RGMineVC.m */,
 				CBEB17241FCF03CD00F8142E /* RGMineVC.h */,
+				CBEB17251FCF03CD00F8142E /* RGMineVC.m */,
+				CB2D392E1FD59D2A0011DD03 /* RGLoginVC.h */,
+				CB2D392F1FD59D2A0011DD03 /* RGLoginVC.m */,
+				CB2D39301FD59D2A0011DD03 /* RGLoginVC.xib */,
 			);
 			path = Mine;
 			sourceTree = "<group>";
@@ -468,8 +492,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBEB16F11FCF00D700F8142E /* LaunchScreen.storyboard in Resources */,
+				CB2D39321FD59D2A0011DD03 /* RGLoginVC.xib in Resources */,
 				CBEB16EE1FCF00D700F8142E /* Assets.xcassets in Resources */,
 				CBEB16EC1FCF00D700F8142E /* Main.storyboard in Resources */,
+				CB2D392D1FD5933D0011DD03 /* RGUserMessageCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,6 +568,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB2D39311FD59D2A0011DD03 /* RGLoginVC.m in Sources */,
 				A177A5291FD16DB5009E62B8 /* RGFetchTokenApi.m in Sources */,
 				CBD52A751FCF27FF00B783EE /* RGSendRegCodeApi.m in Sources */,
 				CBD52A6C1FCF240D00B783EE /* RGUserInfoApi.m in Sources */,
@@ -567,6 +594,7 @@
 				CBEB171D1FCF037100F8142E /* RGMessageVC.m in Sources */,
 				CBD52A7E1FCF2B5500B783EE /* RGSaveUserConfigApi.m in Sources */,
 				A177A5201FD16BDF009E62B8 /* RGGetUserContactListApi.m in Sources */,
+				CB2D392C1FD5933D0011DD03 /* RGUserMessageCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
