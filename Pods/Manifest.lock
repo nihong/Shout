@@ -19,6 +19,9 @@ PODS:
   - MBProgressHUD (1.0.0)
   - MJRefresh (3.1.12)
   - Reveal-SDK (2)
+  - RongCloudIM/IMKit (2.8.21):
+    - RongCloudIM/IMLib
+  - RongCloudIM/IMLib (2.8.21)
   - SDWebImage (3.8.2):
     - SDWebImage/Core (= 3.8.2)
   - SDWebImage/Core (3.8.2)
@@ -36,6 +39,8 @@ DEPENDENCIES:
   - MBProgressHUD
   - MJRefresh
   - Reveal-SDK
+  - RongCloudIM/IMKit (~> 2.8.3)
+  - RongCloudIM/IMLib (~> 2.8.3)
   - SDWebImage
   - UMengAnalytics
   - YTKNetwork
@@ -48,11 +53,12 @@ SPEC CHECKSUMS:
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
   Reveal-SDK: 4d36a47c7091843eee525b72219e005b90bbac0b
+  RongCloudIM: 3569886ea3070c0fae613bf5ea91422ee141e24e
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
   UMengAnalytics: 19b28253793d77dff10fb7d502faad1fb6b8ce4a
   YTKNetwork: f21ad2073b3353a11d257593a2859f2904bbec75
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 5223eba94951a4836c504fefa12464051f0e8463
+PODFILE CHECKSUM: b3f7636518ebfc5f892c1a7cfd6dbb9a1a2f8d15
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.3.1
